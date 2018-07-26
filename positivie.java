@@ -14,13 +14,13 @@ class Ideone
 		{
 			System.out.print("Positive");
 		}
-		else if(n==0)
-		{
-			System.out.print("Zero");
-		}
 		else if(n<0)
 		{
 			System.out.print("negative");
+		}
+		else if(n==0)
+		{
+			Sysytem.out.print("Zero");
 		}
 		else
 		{
