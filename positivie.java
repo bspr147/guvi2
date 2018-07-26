@@ -18,6 +18,10 @@ class Ideone
 		{
 			System.out.print("Zero");
 		}
+		else if(n<0)
+		{
+			System.out.print("negative");
+		}
 		else
 		{
 			System.out.print("nothing");
