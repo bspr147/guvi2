@@ -1,5 +1,5 @@
-mport java.util.Scanner;
-public class Prime3
+import java.util.Scanner;
+ class Prime3
 {
     public static void main(String args[])
     {
