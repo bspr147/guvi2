@@ -6,31 +6,23 @@ import java.util.Scanner;
 {
    public static void main(String args[])
    {
-       int large, size, i;
+       int large,N,i;
        int arr[] = new int[100000];
        Scanner scan = new Scanner(System.in);
-	   
-      
-       size = scan.nextInt();
-	   
-      
-       for(i=0; i<size; i++)
+       N= scan.nextInt();
+       for(i=0;i<N;i++)
        {
            arr[i] = scan.nextInt();
        }
-	   
-     
        large = arr[0];
 	   
-       for(i=0; i<size; i++)
+       for(i=0;i<N;i++)
        {
            if(large < arr[i])
            {
                large = arr[i];
            }
-           
-       }
-	   
-       System.out.print(large+" "); 
+          }
+          System.out.print(large+" "); 
    }
 }
