@@ -29,7 +29,10 @@ class Swap
 		     }
 		    for(int i=0;i<n;i++)
 		    {
-		    System.out.print(a[i]+" ");
+		    	if(i<n-1){
+		     System.out.print(a[i]+" ");}
+		     if(i==n-1)
+		     System.out.print(a[i]);
 		    }
 	}
 }
