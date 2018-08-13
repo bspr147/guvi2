@@ -9,9 +9,9 @@ class Line
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Scanner sc=new Scanner(System.in);
+	   	Scanner sc=new Scanner(System.in);
 		String s=sc.nextLine();
-		int count=0;
+		int count=1;
 		for(char c:s.toCharArray())
 		{
 			if(c=='.')
